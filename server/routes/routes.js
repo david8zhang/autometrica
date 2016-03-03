@@ -6,4 +6,6 @@ router.route('/data/create')
 	.post(dataController.createData);
 
 router.route('/data/index')
-	.post(dataController.getData);
+	.get(dataController.getData);
+
+module.exports = router;
