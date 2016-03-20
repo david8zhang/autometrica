@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Autometrica</string>
+    <string name="message">On a scale of 1 to 5, How burnt out are you?</string>
+    <string name="option1">1 - Super Motivated</string>
+    <string name="option2">2 - Pretty Motivated</string>
+    <string name="option3">3 - Meh</string>
+    <string name="option4">4-Pretty Burnt Out</string>
+    <string name="option5">5 - Really Burnt Out</string>
+</resources>

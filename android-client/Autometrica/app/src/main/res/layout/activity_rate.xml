@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/message"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/message"/>
+
+    <Button
+        android:id="@+id/option_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option1"/>
+
+    <Button
+        android:id="@+id/option_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option2"/>
+
+    <Button
+        android:id="@+id/option_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option3"/>
+
+    <Button
+        android:id="@+id/option_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option4"/>
+
+    <Button
+        android:id="@+id/option_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option5"/>
+
+</LinearLayout>

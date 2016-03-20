@@ -1,0 +1,16 @@
+{
+  "name": "gcm-schedule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gcm-schedule.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "node-gcm": "^0.14.0",
+    "util": "^0.10.3"
+  }
+}
