@@ -1,0 +1,21 @@
+/*************************
+    GENERAL STYLES
+**************************/
+.container {
+    display: inline;
+    width: 100%;
+    padding:0px;
+}
+
+.notext-decorate {
+    text-decoration: none !important;
+}
+/*************************
+    NAVBAR STYLES
+**************************/
+.top-bar.navbar-desktop {
+    background-color: #7da7d9;
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
