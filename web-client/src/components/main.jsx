@@ -1,8 +1,7 @@
 var React = require('react');
-var Router = require('react-router');
 var JumboTron = require('./jumbotron');
 var FeaturePanel = require('./featurepanel');
-var Navbar = require('./navbar')
+var Navbar = require('./navbar');
 
 module.exports = React.createClass({
     render: function() {
@@ -15,14 +14,9 @@ module.exports = React.createClass({
         if(this.props.children) {
             return this.props.children;
         } else {
-            return
-            <div className="main-content">
-                <div className="jumbotron">
-                    <JumboTron />
-                </div>
-                <div className="features">
-                    <FeaturePanel />
-                </div>
+            return <div className="main-content">
+                <JumboTron/>
+                <FeaturePanel/>
             </div>
         }
     }
