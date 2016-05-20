@@ -15,6 +15,7 @@ body {
     text-decoration: none !important;
 }
 
+
 /*************************
     NAVBAR STYLES
 **************************/
@@ -91,10 +92,13 @@ body {
     color: #737373;
 }
 
+/*************************
+    CHARTS STYLES
+**************************/
+
 .sidebar {
-    width: 217px;
     background-color:#568fd3;
-    height: 100%;
+    height: 100vh;
     padding: 65px 0px;
 }
 
@@ -113,7 +117,7 @@ body {
 .sidebar-item-icon {
     position: absolute;
     margin-top: 12px;
-    margin-left: 25px;
+    margin-left: 65px;
     height: 25px;
     width: 25px;
     background-color: #00ff00;
@@ -140,4 +144,60 @@ body {
     font-weight: 300;
     font-size:20px;
     display:inline-block;
+}
+
+
+/*************************
+    DASHBOARD STYLES
+**************************/
+.dash-info {
+    height: 130px;
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+}
+
+.dash-info.green {
+    background-color:#26a65b;
+}
+
+.dash-info.blue {
+    background-color:#088DA5;
+}
+
+.dash-info.red {
+    background-color:#EC644B;
+}
+
+.dash-title {
+    color: white;
+    font-size: 30px;
+    display:inline-block;
+    margin-bottom: 0px;
+}
+
+.dash-subtitle {
+    font-size:20px;
+    color: white;
+}
+
+.row.charts-page {
+    max-width: 100%;
+    padding: 0px;
+}
+
+.columns.charts-page {
+    padding: 0px;
+    height: 100vh;
+}
+
+.row.dash-header {
+    padding: 20px;
+}
+
+/*************************
+    CHART STYLES
+**************************/
+.chart-info {
+    padding: 20px;
 }
